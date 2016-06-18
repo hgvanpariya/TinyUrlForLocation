@@ -1,6 +1,3 @@
-com/pincodes/CassandraConfig.class
-com/pincodes/CityRepository.class
-com/pincode/data/dao/City.class
-com/pincodes/City.class
-com/pincodes/GreetingController.class
-com/pincodes/PinCodeApplication.class
+com/shortlocation/ShortUrl.class
+com/shortlocation/ShortLocationApplication.class
+com/shortlocation/ShortLocationController.class

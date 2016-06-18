@@ -26,7 +26,7 @@ var loc ;
 function httpGet()
 {
     var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", "http://localhost:8080/api/v1/shortUrl?lat="+loc.lat()+"&lng="+loc.lng(), false ); // false for synchronous request
+    xmlHttp.open( "GET", "/api/v1/shortUrl?lat="+loc.lat()+"&lng="+loc.lng(), false ); // false for synchronous request
     xmlHttp.send( null );
     var newURL = xmlHttp.responseText;
     document.getElementById('shortURL').innerHTML = 'Short URL : <a href="'+newURL+'">'+newURL+'</a><br/> Location  :  ( '+loc.lat()+' , '+loc.lng()+' )';
